@@ -74,9 +74,9 @@ const Dashboard = () => {
     placeholder="Filter Links..."
     value={searchQuery}
     onChange={(e) => setSearchQuery(e.target.value)}
-    className="text-blue-500" // Add this line to set the text color
+    className="text-blue-50" // Add this line to set the text color
   />
-  <Filter className="absolute top-2 right-2 p-1 bg-blue-500" />
+  <Filter className="absolute top-2 right-2 p-1 bg-blue-200" />
 </div>
 
       {error && <Error message={error?.message} />}

@@ -37,7 +37,7 @@ const LandingPage = ({ isDarkMode }) => {
           placeholder="Here Enter your long URL"
           value={longUrl}
           onChange={(e) => setLongUrl(e.target.value)}
-          className="h-full flex-1 py-4 px-4"
+          className="h-full flex-1 py-4 px-4 text-blue-50"
         />
         <Button type="submit" className="h-full" variant="destructive">
           Shorten!

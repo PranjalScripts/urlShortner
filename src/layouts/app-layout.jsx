@@ -9,7 +9,7 @@ const AppLayout = () => {
         <Outlet />
       </main>
       <div className="p-10 text-center   mt-10">
-  <marquee behavior="alternate" direction="right">
+  <marquee >
     <span className="text-gradient">
       Copyright @ 2024 Pizeonfly | All Rights Reserved
     </span>
